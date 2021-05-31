@@ -9,6 +9,7 @@
 // @description:zh-CN   为DIM添加light.gg链接
 // @author              HZDeluxe
 // @match               https://app.destinyitemmanager.com/*/d2/inventory
+// @match               https://beta.destinyitemmanager.com/*/d2/inventory
 // @grant               none
 // ==/UserScript==
 

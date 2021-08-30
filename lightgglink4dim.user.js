@@ -8,8 +8,8 @@
 // @description:zh      为DIM添加light.gg链接
 // @description:zh-CN   为DIM添加light.gg链接
 // @author              HZDeluxe
-// @match               https://app.destinyitemmanager.com/*/d2/inventory
-// @match               https://beta.destinyitemmanager.com/*/d2/inventory
+// @match               https://app.destinyitemmanager.com/*
+// @match               https://beta.destinyitemmanager.com/*
 // @grant               none
 // ==/UserScript==
 
@@ -18,7 +18,7 @@
 
     let targetNode = null;
     const waitNode = function() {
-        targetNode = document.querySelector('#app > .app > div:first-child');
+        targetNode = document.querySelector('#app > div:first-child > div:first-child');
         if (!targetNode) {
             setTimeout(waitNode, 1000);
         } else {

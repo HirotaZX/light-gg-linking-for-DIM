@@ -3,7 +3,7 @@
 // @name:zh             DIM 链接到 light.gg
 // @name:zh-CN          DIM 链接到 light.gg
 // @namespace           https://github.com/HZDeluxe
-// @version             0.1.1
+// @version             0.1.2
 // @description         Add links to light.gg for DIM
 // @description:zh      为DIM添加light.gg链接
 // @description:zh-CN   为DIM添加light.gg链接
